@@ -205,11 +205,38 @@ li{
 	height: 15px;
 	color: #fff;
 }
-.qrcode{
+.q-code{
+	
 	position: absolute;
-	width: 30%;
-	height: 30%;
+	top:0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background:#000;
+}
+.qrcode{
+	z-index: 100;
+	position: absolute;
 	display: none;
 	left: 30%;
 	top: 30%;
+
+}
+/*.qrcode img{
+	display: none;
+}*/
+.x{
+	position: absolute;
+	z-index: 103;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 50px;
+	text-align: center;
+	top: 34%;
+	left: 34%;
+	background: red;
+	display: none;
 }
